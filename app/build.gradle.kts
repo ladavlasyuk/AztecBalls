@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.AncientPar.AztecBalls"
-        minSdk = 26
+        minSdk = 25
         targetSdk = 36
         versionCode = 31
         versionName = "3.1"

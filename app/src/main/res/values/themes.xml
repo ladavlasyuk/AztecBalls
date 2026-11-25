@@ -1,8 +1,0 @@
-<resources>
-    <style name="Theme.AztecBalls" parent="android:style/Theme.Material.Light.NoActionBar">
-        <item name="android:windowBackground">#182F89</item>
-        <item name="android:colorAccent">#EBC164</item>
-        <item name="android:navigationBarColor">#101F53</item>
-        <item name="android:windowLightStatusBar">false</item>
-    </style>
-</resources>

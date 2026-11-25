@@ -1,0 +1,6 @@
+<resources>
+    <string name="temple_privacy">Privacy Policy</string>
+    <string name="temple_unavailable">Unable to reach the service</string>
+    <string name="temple_connection_hint">Check your connection and try again. The service may be temporarily unavailable.</string>
+    <string name="temple_retry">Try again</string>
+</resources>

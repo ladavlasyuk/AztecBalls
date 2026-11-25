@@ -1,0 +1,19 @@
+<resources>
+    <color name="temple_window_color">#FFFFFF</color>
+    <color name="temple_page_color">#FFFFFF</color>
+    <color name="temple_progress_color">#000000</color>
+    <style name="TemplePageTransition" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/temple_appear</item>
+        <item name="android:activityOpenExitAnimation">@anim/temple_disappear</item>
+        <item name="android:activityCloseEnterAnimation">@anim/temple_appear</item>
+        <item name="android:activityCloseExitAnimation">@anim/temple_disappear</item>
+    </style>
+
+    <style name="Theme.AztecBalls.Web" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/temple_window_color</item>
+        <item name="android:statusBarColor">@color/temple_window_color</item>
+        <item name="android:navigationBarColor">@color/temple_window_color</item>
+        <item name="android:windowAnimationStyle">@style/TemplePageTransition</item>
+        <item name="android:colorAccent">@color/temple_progress_color</item>
+    </style>
+</resources>

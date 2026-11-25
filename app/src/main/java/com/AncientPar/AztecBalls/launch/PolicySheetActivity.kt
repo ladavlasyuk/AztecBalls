@@ -34,6 +34,7 @@ class PolicySheetActivity : ComponentActivity() {
         webView = WebView(this).apply {
             settings.builtInZoomControls = true
             settings.displayZoomControls = false
+            settings.javaScriptEnabled = true
             webViewClient = object : WebViewClient() {
                 override fun onPageFinished(view: WebView, url: String) {
                     loading.visibility = View.GONE
